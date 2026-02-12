@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(./gradlew assembleDebug:*)",
+      "Bash(./gradlew:*)",
+      "Bash(python3:*)",
+      "Bash(/usr/libexec/java_home:*)",
+      "Bash(java:*)",
+      "Bash(\"/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java\" -version)",
+      "Bash(export JAVA_HOME=\"/Applications/Android Studio.app/Contents/jbr/Contents/Home\")",
+      "Bash(adb:*)",
+      "Bash(export JAVA_HOME:*)"
+    ]
+  }
+}
